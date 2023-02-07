@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chittle</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/index/logo01.png" alt=""></a>
+        <!-- nav main btn -->
+        <nav class="navbar">
+            <ul class="navMenu">
+                <li class="dropdown dropdown-1">
+                    <a href="index.html">
+                        ホーム
+                    </a>
+                </li>
+                <li class="dropdown dropdown-1">
+                    調味料
+                    <ul class="dropdown_menu dropdown_menu-1">
+                        <li class="dropdown_item-1">
+                            <a href="Seasonings.html">韓国</a>
+                        </li>
+                        <li class="dropdown_item-2">
+                            <a href="Seasonings.html">中国</a>
+                        </li>
+                        <li class="dropdown_item-3">
+                            <a href="Seasonings.html">インド</a>
+                        </li>
+                        <li class="dropdown_item-4">
+                            <a href="Seasonings.html">タイ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-1">
+                    料理
+                    <ul class="dropdown_menu dropdown_menu-1">
+                        <li class="dropdown_item-1">
+                            <a href="cuisine.html">韓国</a>
+                        </li>
+                        <li class="dropdown_item-2">
+                            <a href="cuisine.html">中国</a>
+                        </li>
+                        <li class="dropdown_item-3">
+                            <a href="cuisine.html">インド</a>
+                        </li>
+                        <li class="dropdown_item-4">
+                            <a href="cuisine.html">タイ</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown dropdown-1">
+                    <a href="order.html">
+                        注文
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- nav side button -->
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- search page -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <main>
+
+
+        <section class="home" id="home">
+            <div class="swiper-container home-slider">
+
+                <div class="swiper-wrapper wrapper">
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>特徴のレシピ</span>
+                            <h3>豆腐スパゲティ</h3>
+                            <p>脂肪の多い肉を豆腐に置き換えることで、スパゲッティを健康的に楽しむ方法で、カロリーを大幅に削減できます</p>
+                            <a href="#" class="btn">カートに入れ</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/index/home-img-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>特徴のレシピ</span>
+                            <h3>ハーブローストチキン</h3>
+                            <p>さまざまなシェフが紹介するまったく新しいハーブ入りチキンを味わうまったく新しい方法</p>
+                            <a href="#" class="btn">カートに入れ</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/index/home-img-2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>特徴のレシピ</span>
+                            <h3>バジルオリーブピザ</h3>
+                            <p>何度もレシピをリニューアルし完成したピザは今では数えきれないほどのレストランで販売されています</p>
+                            <a href="#" class="btn">カートに入れ</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/index/home-img-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    </main>
+    <!-- popular dishes -->
+
+    <section class="dishes" id="dishes">
+
+        <h3 class="sub-heading"> 料理 </h3>
+        <h1 class="heading"> 人気ある注文 </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/spices/Korean/8.-Korean-fish-sauce.jpg" alt="">
+                <h3>魚醤</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥100</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/cuisine/Korean/Dakgangjeong-닭강정.jpg" alt="">
+                <h3>タッカンジョン</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥330</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/cuisine/Korean/sundubu.jpg" alt="">
+                <h3>スンドゥブチゲセット</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥260</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/cuisine/Korean/jajangmyeon.jpeg" alt="">
+                <h3>チャジャンミョンセット</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥180</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/cuisine/Korean/kimchijjigae.jpg" alt="">
+                <h3>キムチチゲセット</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥280</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/cuisine/Korean/nakji-bokkeum.jpg" alt="">
+                <h3>ナクジボックムセット</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥250</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/cuisine/Korean/tteokbokki-korean.jpg" alt="">
+                <h3>トッポッキ</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>¥230</span>
+                <a href="#" class="btn">カートに入れ</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section start -->
+
+    <section class="about" id="about">
+
+        <h3 class="sub-heading">私たちについて</h3>
+        <h1 class="heading">どうして私たちのサービスを選びますか？</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/index/Save_food.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>食品ロスの最小化を目指して</h3>
+                <p>食品ロスを増やさないためにサイズを小さくした調味料の販売に力を入れているサイトで、サイズが合わず捨てなければならないサイズで購入することなく、さまざまなアジアの調味料を試すことができます。</p>
+                <p>彼らはもうそれを使用しないので、代わりにそれを片付けます。
+                    調味料の販売だけでなく、どんな料理を作るかをお客様が選べるオプションや、レシピに使用されているさまざまな食材とお客様が提供するミールキットオプションを選択できるオプションも提供しています。</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>配達無料</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>簡単な支払い</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7サービス</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">もっと調べる</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h3 class="sub-heading"> 一覧見る </h3>
+        <h1 class="heading"> 今日のおすすめ </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/index/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>料理</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                    <span class="price">¥1000</span>
+                    <div class="cartBtn">
+                        <a href="#" class="btn">カートに入れ</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading">カスタマーレビュー</h3>
+        <h1 class="heading">よくあるレビュー</h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/index/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>アレックス</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>私はチトルのスパイスバッグが大好きです。
+                        キッチンに小さなスパイス キャビネットがあり、常にあふれていますが、真っ赤で大胆なパッケージのおかげで、探しているものが簡単に見つかります。
+                        これらのスパイスは、スープ、シチュー、キャセロールなど、キッチンにあるほぼすべてのものに使用しています。</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/index/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>ステファニ</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>辛いものが大好きで、スパイス調味料が大好きです。 私はほとんどすべての種類の食品にそれらを使用しています。 しかし、私が本当に好きなスパイス調味料の組み合わせは見つかりませんでした.
+                        そこで自作することにしました。 すべての材料を組み合わせることから始めましたが、どれだけ気に入ったかを知ってとても驚きました.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/index/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>マリア</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>私たちはドライラブとチリが大好きです。 私たちはそれらを私たちの食べ物に加えるのが好きです. また、ハーブやスパイスの風味付けにも使用しています。 チットルの利便性が気に入っています。
+                        調味料のパケットをいくつか入れるだけです。 風味を加えるだけでなく、料理にちょっとした刺激を加えます。</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/index/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>エリザベス</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>辛いものが大好きで、スパイス調味料が大好きです。 私はほとんどすべての種類の食品にそれらを使用しています。 しかし、私が本当に好きなスパイス調味料の組み合わせは見つかりませんでした.
+                        そこで自作することにしました。 すべての材料を組み合わせることから始めましたが、どれだけ気に入ったかを知ってとても驚きました.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>クイック アクセス</h3>
+                <a href="#">ホーム</a>
+                <a href="#">調味料</a>
+                <a href="#">料理</a>
+                <a href="#">注文</a>
+            </div>
+
+            <div class="box">
+                <h3>連絡先</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">jasmix555@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>SNS</h3>
+                <a href="#">facebook</a>
+                <a href="https://twitter.com/Jasmix_555">twitter</a>
+                <a href="https://www.instagram.com/jason_ng555/">instagram</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Copyright &copy; 2022 by <span>Chittle&trade;</span> </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <!-- loader part  -->
+    <!-- <div class="loader-container">
+        <img src="images/index/loader.gif" alt="">
+    </div> -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

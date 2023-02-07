@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/order.css">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><img src="images/index/logo01.png" alt=""></a>
+        <!-- nav main btn -->
+        <nav class="navbar">
+			<ul class="navMenu">
+				<li class="dropdown dropdown-1">
+                    <a href="index.html">
+                        ホーム
+                    </a>
+				</li>
+				<li class="dropdown dropdown-1">
+					調味料
+					<ul class="dropdown_menu dropdown_menu-1">
+						<li class="dropdown_item-1">
+                            <a href="Seasonings.html">韓国</a>
+                        </li>
+						<li class="dropdown_item-2">
+                            <a href="Seasonings.html">中国</a>
+                        </li>
+						<li class="dropdown_item-3">
+                            <a href="Seasonings.html">インド</a>
+                        </li>
+						<li class="dropdown_item-4">
+                            <a href="Seasonings.html">タイ</a>
+                        </li>
+					</ul>
+				</li>
+				<li class="dropdown dropdown-1">
+					料理
+					<ul class="dropdown_menu dropdown_menu-1">
+						<li class="dropdown_item-1">
+                            <a href="cuisine.html">韓国</a>
+                        </li>
+						<li class="dropdown_item-2">
+                            <a href="cuisine.html">中国</a>
+                        </li>
+						<li class="dropdown_item-3">
+                            <a href="cuisine.html">インド</a>
+                        </li>
+						<li class="dropdown_item-4">
+                            <a href="cuisine.html">タイ</a>
+                        </li>
+					</ul>
+				</li>
+				<li class="dropdown dropdown-1">
+					<a href="order.html">
+                        注文
+                    </a>
+				</li>
+			</ul>
+		</nav>
+
+        <!-- nav side button -->
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- search page -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <div class="container">
+
+        <form action="">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h3 class="title">決済登録</h3>
+
+                    <div class="inputBox">
+                        <span>お名前　:</span>
+                        <input type="text" placeholder="田中　太郎">
+                    </div>
+                    <div class="inputBox">
+                        <span>メール　:</span>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>住所　:</span>
+                        <input type="text" placeholder="room - street - locality">
+                    </div>
+    
+                    <div class=" flex">
+                        <div class="inputBox">
+                            <span>都道府県 :</span>
+                            <select name="prefecture" class="" id="user_prefectures" required>
+                                <option value="0">選択してください。</option>
+                                <optgroup label="北海道地方">
+                                    <option value="1">北海道</option>
+                                </optgroup>
+                                <optgroup label="東北地方">
+                                    <option value="2">青森県</option>
+                                    <option value="3">岩手県</option>
+                                    <option value="4">宮城県</option>
+                                    <option value="5">秋田県</option>
+                                    <option value="6">山形県</option>
+                                    <option value="7">福島県</option>
+                                </optgroup>
+                                <optgroup label="関東地方">
+                                    <option value="8">茨城県</option>
+                                    <option value="9">栃木県</option>
+                                    <option value="10">群馬県</option>
+                                    <option value="11">埼玉県</option>
+                                    <option value="12">千葉県</option>
+                                    <option value="13">東京都</option>
+                                    <option value="14">神奈川県</option>
+                                </optgroup>
+                                <optgroup label="中部地方">
+                                    <option value="15">新潟県</option>
+                                    <option value="16">富山県</option>
+                                    <option value="17">石川県</option>
+                                    <option value="18">福井県</option>
+                                    <option value="19">山梨県</option>
+                                    <option value="20">長野県</option>
+                                    <option value="21">岐阜県</option>
+                                    <option value="22">静岡県</option>
+                                    <option value="23">愛知県</option>
+                                </optgroup>
+                                <optgroup label="関西地方">
+                                    <option value="24">三重県</option>
+                                    <option value="25">滋賀県</option>
+                                    <option value="26">京都府</option>
+                                    <option value="27">大阪府</option>
+                                    <option value="28">兵庫県</option>
+                                    <option value="29">奈良県</option>
+                                    <option value="30">和歌山県</option>
+                                </optgroup>
+                                <optgroup label="中国地方">
+                                    <option value="31">鳥取県</option>
+                                    <option value="32">島根県</option>
+                                    <option value="33">岡山県</option>
+                                    <option value="34">広島県</option>
+                                    <option value="35">山口県</option>
+                                </optgroup>
+                                <optgroup label="四国地方">
+                                    <option value="36">徳島県</option>
+                                    <option value="37">香川県</option>
+                                    <option value="38">愛媛県</option>
+                                    <option value="39">高知県</option>
+                                </optgroup>
+                                <optgroup label="九州地方">
+                                    <option value="40">福岡県</option>
+                                    <option value="41">佐賀県</option>
+                                    <option value="42">長崎県</option>
+                                    <option value="43">熊本県</option>
+                                    <option value="44">大分県</option>
+                                    <option value="45">宮崎県</option>
+                                    <option value="46">鹿児島県</option>
+                                </optgroup>
+                                <optgroup label="沖縄地方">
+                                    <option value="47">沖縄県</option>
+                                </optgroup>
+                            </select>
+
+                        </div>
+                        <div class="inputBox">
+                            <span>郵便番号:</span>
+                            <input type="text" placeholder="123 456">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <h3 class="title">支払い方法</h3>
+
+                    <div class="inputBox">
+                        <span>使えるカード:</span>
+                        <img src="images/index/card_img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>カードで入力してる名前　:</span>
+                        <input type="text" placeholder="TANAKA TAROU">
+                    </div>
+                    <div class="inputBox">
+                        <span>カード番号:</span>
+                        <input type="number" placeholder="1111-2222-3333-4444">
+                    </div>
+                    <div class="inputBox">
+                        <span>カード期限　:</span>
+                        <input type="text" placeholder="01/24">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>exp year :</span>
+                            <input type="number" placeholder="2022">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <input type="submit" value="proceed to checkout" class="submit-btn">
+
+        </form>
+
+    </div>
+
+
+    <section class="footer">
+
+        <div class="box-container">
+            <div class="box">
+                <h3>クイック アクセス</h3>
+                <a href="#">ホーム</a>
+                <a href="#">調味料</a>
+                <a href="#">料理</a>
+                <a href="#">注文</a>
+            </div>
+
+            <div class="box">
+                <h3>連絡先</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">jasmix555@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>SNS</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> Copyright &copy; 2022 by <span>Chittle&trade;</span> </div>
+
+    </section>
+
+    <!-- loader part  -->
+    <!-- <div class="loader-container">
+        <img src="images/index/loader.gif" alt="">
+    </div> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
