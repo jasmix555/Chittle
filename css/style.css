@@ -367,6 +367,7 @@ nav {
 .loader-container.fade-out {
     top: -110%;
     opacity: 0;
+    transition: 0.3s ease-in-out;
 }
 
 /* media queries  */

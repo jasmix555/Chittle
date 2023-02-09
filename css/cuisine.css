@@ -240,6 +240,7 @@ body {
 
 .card__body {
     padding: 20px;
+    height: 24%;
 }
 
 .card__body h3 {
