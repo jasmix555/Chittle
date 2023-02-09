@@ -17,21 +17,21 @@ window.onscroll = () => {
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 
-    section.forEach(sec => {
-        //set the amount of scroll needed
-        let top = window.scrollY;
-        let height = sec.offsetHeight;
-        let offset = sec.offsetTop - 200;
-        let id = sec.getAttribute('id');
-        //after amount scroll, make a clickk function for the button for open and close
-        if (top >= offset && top < offset + height) {
-            navLinks.forEach(links => {
-                links.classList.remove('active');
-                document.querySelector('header .navbar a[href*=' + id + ']').classList.add('active');
-            });
-        };
+    // section.forEach(sec => {
+    //     //set the amount of scroll needed
+    //     let top = window.scrollY;
+    //     let height = sec.offsetHeight;
+    //     let offset = sec.offsetTop - 400;
+    //     let id = sec.getAttribute('id');
+    //     //after amount scroll, make a clickk function for the button for open and close
+    //     if (top >= offset && top < offset + height) {
+    //         navLinks.forEach(links => {
+    //             links.classList.remove('active');
+    //             document.querySelector('header .navbar a[href*=' + id + ']').classList.add('active');
+    //         });
+    //     };
 
-    });
+    // });
 
 }
 
@@ -89,7 +89,7 @@ function loader() {
 }
 
 function fadeOut() {
-    setInterval(loader, 1000);
+    setInterval(loader, 1500);
 }
 
 window.onload = fadeOut;
@@ -102,6 +102,3 @@ for (let i = 0; i < card.length; i++) {
 
     
 }
-
-const btn = document.querySelectorAll(".card__content .card__price a")
-console.log(btn);
