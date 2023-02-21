@@ -17,22 +17,6 @@ window.onscroll = () => {
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 
-    // section.forEach(sec => {
-    //     //set the amount of scroll needed
-    //     let top = window.scrollY;
-    //     let height = sec.offsetHeight;
-    //     let offset = sec.offsetTop - 400;
-    //     let id = sec.getAttribute('id');
-    //     //after amount scroll, make a clickk function for the button for open and close
-    //     if (top >= offset && top < offset + height) {
-    //         navLinks.forEach(links => {
-    //             links.classList.remove('active');
-    //             document.querySelector('header .navbar a[href*=' + id + ']').classList.add('active');
-    //         });
-    //     };
-
-    // });
-
 }
 
 //make search button page when clicked
@@ -50,7 +34,7 @@ var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction: false,
     },
     pagination: {
@@ -64,7 +48,7 @@ var swiper = new Swiper(".review-slider", {
     spaceBetween: 20,
     centeredSlides: true,
     autoplay: {
-        delay: 2500,
+        delay: 4500,
         disableOnInteraction: false,
     },
     loop: true,
@@ -72,13 +56,13 @@ var swiper = new Swiper(".review-slider", {
         0: {
             slidesPerView: 1,
         },
-        640: {
+        700: {
             slidesPerView: 2,
         },
-        768: {
+        830: {
             slidesPerView: 2,
         },
-        1024: {
+        1050: {
             slidesPerView: 3,
         },
     },
